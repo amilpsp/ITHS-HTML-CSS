@@ -1,0 +1,17 @@
+body{
+    background-color: #ba9b7e;
+    background-image: url(fox@150px.jpeg);
+}
+/*Stilsätt body
+Bakgrundsfärgen ska vara #ba9b7e.
+Bakgrundsbilden ska vara fox@150px.jpeg.
+
+Det är en bra utgångspunkt att sätta bakgrundsfärger
+även om man sätter bakgrundsbilder som täcker hela elementet.
+Bakgrundsfärgen visas nämligen medan bilden laddas in, samt i situationer då
+bilden inte kan laddas in.
+
+style-attributet på body-elementet ger body-elementet en höjd på 100vh
+(så att det tar upp hela höjden, och så att färgövergången syns),
+samt tar bort marginalerna/“luften” runt body-elementet (vilket gör att
+body-elementet precis får plats, och att det inte visas några scroll bars).*/
