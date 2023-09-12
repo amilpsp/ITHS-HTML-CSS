@@ -1,9 +1,9 @@
 body {
-  background-image: linear-gradient(
-    rgb(217, 192, 255),
-    rgb(85, 164, 160),
-    rgb(27, 27, 85)
-  );
+  background-color: #ba9b7e;
+  background-image: url(fox@800px.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 /* Bakgrundsfärgen ska vara #ba9b7e (samma som i de första tre uppgifterna).
 Bakgrundsbilden ska vara fox@800px.jpeg (inte fox@150px.jpeg).
