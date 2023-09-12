@@ -1,10 +1,10 @@
-body{
-    background-color: #ba9b7e;
-    background-image: url(fox@150px.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    /* Bakgrundsbilden ska inte upprepas.
-Bakgrundsbilden ska vara placerad i det nedre högra hörnet. */
+body {
+  /*  background-color: #ba9b7e;
+  background-image: url(fox@150px.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom right; */
+
+  background: #ba9b7e url(fox@150px.jpeg) no-repeat bottom right;
 }
 /* Ersätt bakgrundsegenskaperna så att typväljaren endast innehåller en background-egenskap.
 
