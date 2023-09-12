@@ -1,0 +1,11 @@
+body{
+    background-color: #ba9b7e;
+    background-image: url(fox@150px.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* Bakgrundsbilden ska inte upprepas.
+Bakgrundsbilden ska vara placerad i det nedre högra hörnet. */
+}
+/* Ersätt bakgrundsegenskaperna så att typväljaren endast innehåller en background-egenskap.
+
+Likt med font-kortformen så kommer bakgrundsvärden som inte anges att bli satta till sina standardvärden, även om egenskaperna i fråga inte ingår i kortformen. Till exempel så skulle background: blue; sätta background-image till none. */
