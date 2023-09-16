@@ -6,28 +6,38 @@
     <meta content="initial-scale=1, width=device-width" name="viewport">
   </head>
   <body>
-    <label>
-        <input checked name="blue" type="checkbox" value="html">Blue
-    </label>
-    <label>
-        <input name="red" type="checkbox" value="html">Red 
-    </label>
+    <fieldset> <!-- checkboxes -->
+        <legend>Which color-mode do you prefer?</legend>
+        <label>
+            <input checked name="dark" type="checkbox" value="html">Dark
+        </label>
+        <label>
+            <input name="light" type="checkbox" value="html">Light 
+        </label>
+    </fieldset>
 
-    <label>
-        <input name="music" type="radio" value="salsa"> Salsa
-    </label>
-    <label>
-        <input name="music" type="radio" value="cumbia"> Cumbia
-    </label>
-    <label>
-        <input name="music" type="radio" value="reggaeton"> Reggaeton
-    </label>
-
-    <label for="fav-gaming">What's your favorite way to play videogames?</label>
-    <select name="fav-gaming" id="fav-gaming">
-        <option value="windows">Xbox</option>
-        <option value="playstation">PlayStation</option>
-        <option value="pc">PC</option>
-      </select>
+    <fieldset><!-- radio buttons -->
+        <legend>Which of these is the best of latin music? Choose carefully!</legend>
+        <label>
+            <input name="music" type="radio" value="salsa"> Salsa
+        </label>
+        <label>
+            <input name="music" type="radio" value="cumbia"> Cumbia
+        </label>
+        <label>
+            <input name="music" type="radio" value="reggaeton"> Reggaeton
+        </label>
+    </fieldset>
+    
+    <fieldset><!-- dropdown -->
+        <legend>What's your favorite form of gaming?</legend>
+        <label for="fav-gaming">Pic your media</label>
+        <select name="fav-gaming" id="fav-gaming">
+            <option value="windows">Xbox</option>
+            <option value="playstation">PlayStation</option>
+            <option value="pc">PC</option>
+        </select>
+    </fieldset>
+    
   </body>
 </html>
