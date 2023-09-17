@@ -1,9 +1,14 @@
 body {
-    display: flex; /* I'm an idiot. I was missing the most important of all [facepalm] */
+    display: flex;
     flex-direction: column;
 }
 header {
+    display: flex;
+    align-items: center;
     height: 3rem;
+}
+#second {
+    flex-grow: 1;
 }
 main {
     flex-grow: 1;
