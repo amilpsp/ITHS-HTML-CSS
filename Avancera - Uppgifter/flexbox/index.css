@@ -1,18 +1,18 @@
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "first first second"
+        "third third second";
 }
-header {
-    display: flex;
-    align-items: center;
-    height: 3rem;
+#first {
+    grid-area: first;
 }
 #second {
-    flex-grow: 1;
+    grid-area: second;
 }
-main {
-    flex-grow: 1;
-}
-footer {
-    height: 2rem;
+#third {
+    grid-area: third;
 }
