@@ -1,20 +1,10 @@
-@media screen and (min-width: 500px) {
+body {
+    background-color: #ddddcd;
+    color: #3d3d3d;
+}
+@media (prefers-color-scheme: dark) {
     body {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
-        grid-gap: 10px;
-        grid-template-areas:
-            "first first second"
-            "third third second";
+        background: #3d3d3d;
+        color: #ddddcd;
     }
-}
-#first {
-    grid-area: first;
-}
-#second {
-    grid-area: second;
-}
-#third {
-    grid-area: third;
 }
